@@ -1,0 +1,5 @@
+yaml file:///etc/ros/rosdep/osx-homebrew.yaml osx
+yaml file:///etc/ros/rosdep/base.yaml
+yaml file:///etc/ros/rosdep/python.yaml
+yaml file:///etc/ros/rosdep/ruby.yaml
+gbpdistro file:///etc/ros/rosdep/fuerte.yaml fuerte
