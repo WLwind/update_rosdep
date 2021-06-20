@@ -1,4 +1,7 @@
 #!/bin/bash -e
+if [ ! -d "/etc/ros/rosdep/sources.list.d/" ];then
+  sudo mkdir -p /etc/ros/rosdep/sources.list.d
+fi
 sudo cp 20-default.list /etc/ros/rosdep/sources.list.d/
 sudo cp {osx-homebrew.yaml,base.yaml,python.yaml,ruby.yaml,index-v4.yaml} /etc/ros/rosdep/
 sudo cp -r {foxy,galactic,kinetic,melodic,noetic,rolling} /etc/ros/rosdep/
