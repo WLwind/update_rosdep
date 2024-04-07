@@ -1,5 +1,5 @@
 # update_rosdep
-Shell to update rosdep offline  
+Shell to init and update rosdep offline  
 `cd update_rosdep`  
 `./rosdep_init_update.sh`  
 Current branch is for ros melodic. If you are using kinetic, please switch to kinetic branch.  
